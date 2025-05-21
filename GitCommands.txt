@@ -1,0 +1,43 @@
+#To check the version ogf the command
+git __version
+
+#to clone the repo into system 
+git clone link
+
+#to change the repo 
+cd reponame
+
+#to know the changes made
+git status
+
+#to add the changes made 
+git add file name #for single file
+git add . #for multiple files
+
+#to commit the changes
+git commit -m "name anything"
+
+#to push the code into git
+git push
+#if you want to push the code into another branch
+git push origin branchname
+# or you can use 
+git checkout branchname
+git push
+
+#to pull the code into git
+git pull
+#if you want to push the code into another branch
+git pull origin branchname
+# or you can use 
+git checkout branchname
+git pull
+
+#To revert the changes made before pushing the code 
+git stash
+
+#To create the branch
+git branch branchname
+
+#To check the changes made until now 
+git log
